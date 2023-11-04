@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 10px solid;
+            border-radius: 10px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #b1{
+            border-radius: 5px;
+            font-size: large;
+        }
+        #h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        #f1{
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="h1">TAP ACADEMY</h1>
+        <h2>Registration Form</h2>
+        <form id="f1" action="Thank you.html">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact number:</label>
+                <input type="tel" id="contact" name="contact">
+            </div>
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course">
+            </div>
+            <div class="form-group">
+                <label for="fees">Course fees:</label>
+                <input type="number" id="fees" name="fees">
+            </div>
+            <div class="form-group">
+                <label for="amountPaid">Amount paid:</label>
+                <input type="number" id="amountPaid" name="amountPaid">
+            </div>
+            <div class="form-group">
+                <label for="remainingAmount">Remaining amount:</label>
+                <input type="number" id="remainingAmount" name="remainingAmount">
+            </div>
+            <div class="form-group">
+                <label for="mode">Training mode:</label>
+                <select id="mode" name="mode">
+                    <option value="online">Online</option>
+                    <option value="offline">Offline</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="college">College:</label>
+                <input type="text" id="college" name="college">
+            </div>
+            <div class="form-group">
+                <label for="batchTimings">Batch timings:</label>
+                <input type="text" id="batchTimings" name="batchTimings">
+            </div>
+            <div class="form-group">
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+            </div>
+            <div class="form-group">
+                <label for="refName">Refered by (Name):</label>
+                <input type="text" id="refName" name="refName">
+            </div>
+            <div class="form-group">
+                <label for="refNumber">Refered by (Number):</label>
+                <input type="tel" id="refNumber" name="refNumber">
+            </div>
+            <button type="submit" id="b1">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
